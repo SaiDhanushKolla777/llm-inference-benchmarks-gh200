@@ -1,0 +1,6 @@
+model_name: meta-llama/Llama-2-7b-hf
+prompt: "What are three unique advantages of the GH200 Grace Hopper Superchip for LLM inference?"
+max_new_tokens: 64
+temperature: 0.2
+top_p: 0.9
+hf_revision: main

@@ -1,0 +1,22 @@
+# Core Deep Learning Frameworks
+torch>=2.6.0
+torchvision
+transformers>=4.36.0
+flax
+jax>=0.4.23
+jaxlib==0.4.23
+
+# vLLM (for x86: pip install vllm. For GH200/ARM64: install from source, see README)
+# vllm
+
+# Hugging Face integration
+huggingface_hub
+
+# YAML configuration
+pyyaml
+
+# For HTTP requests (used in vLLM client)
+requests
+
+# For system memory/gpu queries
+psutil
